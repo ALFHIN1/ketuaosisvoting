@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Ketua OSIS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #28a745;
+        }
+        label {
+            display: block;
+            margin: 15px 0;
+            font-size: 18px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Voting Ketua OSIS</h2>
+    <form action="thankyou.html">
+        <label>
+            <input type="radio" name="vote" value="calon1" required> Calon 1
+        </label>
+        <label>
+            <input type="radio" name="vote" value="calon2"> Calon 2
+        </label>
+        <label>
+            <input type="radio" name="vote" value="calon3"> Calon 3
+        </label>
+        <button type="submit">Submit Vote</button>
+    </form>
+</div>
+
+</body>
+</html>
